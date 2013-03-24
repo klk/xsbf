@@ -1,0 +1,3 @@
+<? if (!class_exists('template')) die('Access Denied');$template->getInstance()->check('left.html', '72656d16bee144d12ea032ce667ef91d', 1347093170);?>
+<div class="left_nav">
+	<div class="tit">水泵产品列表</div><? if(is_array($nav_proclass1)) { foreach($nav_proclass1 as $key => $val) { ?><ul><? if(is_array($nav_proclass2[$key])) { foreach($nav_proclass2[$key] as $k => $v) { ?><li <? if($cid1==$val['id'] && $cid2==$v['id']) { ?>class="sel"<? } ?>><a href="<?=$site?>prolist.php?cid1=<?=$val['id']?>&cid2=<?=$v['id']?>"><?=$v['name']?></a></li><? } } ?></ul><? } } ?></div>

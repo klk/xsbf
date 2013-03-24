@@ -1,0 +1,33 @@
+{template base}
+<link rel="stylesheet" type="text/css" href="{$site}css/main.css" />
+<link rel="stylesheet" type="text/css" href="{$site}css/page.css" />
+{template head}
+<div class="pro">
+	<div class="fla-con2">
+	  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="930" height="150">
+		<param name="movie" value="../img/banner.swf" />
+		<param name="quality" value="high" />
+		<embed src="../img/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="930" height="150"></embed>
+	  </object>
+	</div>
+    <div>
+        {template left}
+        <div class="list">
+        <div class="listtit">当前位置：首页  &gt;  {if $keyword}产品搜索{else}产品展示{if $cid1}  &gt;  {$cid1name}{/if}{/if}</div>
+        <!--{if $prolist}-->
+        <ul class="prolistshow">
+            <!--{loop $prolist $k $v}-->
+            <li>
+				<a href="{$site}proshow.php?id={$v['id']}" target="_blank" ><img src="{$site}{$v['pic']}" /></a>
+				<a href="{$site}proshow.php?id={$v['id']}" target="_blank" title="{$titleall}">{$v['title']}</a>
+			</li>
+            <!--{/loop}-->
+        </ul>
+        <div class="page">{$endpage}</div>
+        <!--{else}-->
+        暂无该产品~！如有所需请联系业务部 0523-87437929
+        <!--{/if}-->
+        </div>
+    </div>
+</div>
+{template foot}  

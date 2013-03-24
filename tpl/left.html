@@ -1,0 +1,10 @@
+<div class="left_nav">
+	<div class="tit">水泵产品列表</div>
+	<!--{loop $nav_proclass1 $key $val}-->
+	<ul>
+		<!--{loop $nav_proclass2[$key] $k $v}-->
+		<li {if $cid1==$val['id'] && $cid2==$v['id']}class="sel"{/if}><a href="{$site}prolist.php?cid1={$val['id']}&cid2={$v['id']}">{$v['name']}</a></li>
+		<!--{/loop}-->
+	</ul>
+	<!--{/loop}-->
+</div>

@@ -1,0 +1,125 @@
+/* CSS Document */
+#wanp{padding:15px;clear:both;}
+.container{overflow:hidden;padding-bottom:20px;}
+.fla-con{height:330px;width:930px;overflow:hidden;}
+.fla{width:930px;float:left;position:relative}
+.fla .soll-img{position:absolute;top:0;left:0;z-index:1;border-bottom:2px solid #FF610E;}
+.fla .soll-tool{position:absolute;z-index:1000;height:10px;top:315px;right:15px;}
+.fla .soll-tool a{display:block;float:right;width:10px;height:10px;margin:0 2px;background:#55D9FF}
+.fla .soll-tool a.sel{background:#0082A8}
+.prolist{width:160px;height:310px;float:right;padding:15px 20px;background:#F0F0F0}
+.prolist li{padding:11px 0;background:url(../img/bg_7.png) bottom repeat-x}
+.prolist li a{font-size:16px;font-weight:bold;line-height:26px;color:#666}
+.prolist li a:hover{color:#C00}
+.container .t{font-size:16px;font-weight:bold;margin-bottom:15px;}
+.container .bor_1{border-bottom:1px solid #DDD;padding-bottom:20px;margin-bottom:20px;}
+.prointlist{overflow:hidden}
+.prointlist li{width:300px;float:left}
+.prointlist li p{margin-bottom:10px;}
+.prointlist li p.img{height:115px;}
+.prointlist li p.tit{color:#333;font-size:14px}
+.prointlist li p.txt{width:240px;line-height:18px;color:#666}
+.aboutus{overflow:hidden;position:relative;margin-bottom:20px; text-indent:24px;line-height:22px;}
+.aboutus .aboutus-txt{width:700px;text-indent:30px;float:left;}
+.aboutus .aboutus-txt p{line-height:18px;font-size:14px;line-height:24px;color:#666}
+.aboutus .contactus{float:right;width:200px;height:125px;position:absolute;top:0px;right:0}
+.aboutus .contactus a{background:url(../img/bg_8.png) no-repeat;display:block;width:200px;height:125px;}
+.data{overflow:hidden;float:left;width:390px;}
+.newstj{float:left;width:462px;}
+.newstj .img{width:158px;float:left;margin-right:15px;}
+.newstj .txt .tit{font-size:14px;font-weight:bold;line-height:20px;margin-bottom:7px;}
+.newstj .txt .txtinf{line-height:20px;color:#666}
+.newslist {float:right;width:670px}
+.newslist li{border-bottom:1px dotted #DDD;line-height:26px;font-size:12px;padding-left:15px;background:url(../img/bg_16.png) no-repeat 5px center}
+.newslist li a{color:#666}
+.newslist li a:hover{color:#C00}
+.fla-con2{height:150px;margin-bottom:20px;overflow:hidden;background:url(../../img/topbg1.jpg)}
+.t1 .t{height:45px;font-size:14px;line-height:45px;color:#369;background:url(../img/bg_1.png) no-repeat left bottom}
+
+.index_aboutus .aboutus p{ padding-right:280px; background:url(../img/img_1.gif) no-repeat right top;height:145px;}
+
+/*产品介绍*/
+.pro{padding-bottom:50px;overflow:hidden}
+.pro .fla-con2 .pro-a{background:url(../../img/topbg2.jpg);height:150px;}
+.pro .list {width:670px;float:right;overflow:hidden}
+.pro .list li{padding:10px 0;border-bottom:1px dotted #CCC;height:16px;font-size:14px;}
+.pro .list li a.left{float:left;font-size:14px;}
+.pro .list li .right a{margin-left:10px;font-size:14px;}
+
+.proshow .sort{margin:10px 0 15px 0 }
+.proshow .sort span{margin-right:20px;}
+.proshow .file_list .t{margin-bottom:5px;font-size:14px;color:#666}
+.proshow .file_list .img{margin-bottom:15px;}
+.proshow .file_list .img img{width:180px;}
+.proshow .file_list .txt{line-height:22px;}
+.proshow .file_list li{border-bottom:1px dotted #DDD;padding:10px 0 6px 0;font-size:12px;}
+
+
+/*新闻列表*/
+.newscon .list li{padding:6px 0;border-bottom:1px dashed #DDD;height:20px;font-size:12px;width:930px;overflow:hidden;clear:both;}
+.newscon .list li a{font-size:14px;float:left}
+.newscon .list li span{float:right;color:#666}
+.newscontent .t{font-size:26px;text-align:center;margin-bottom:10px;color:#333;margin-bottom:15px;line-height:36px;}
+.newscontent .time{text-align:center;margin-bottom:15px;}
+.newscontent .time span{color:#666}
+.newscontent .time span.timenum{margin-right:20px;}
+.newscontent .txt {margin:0 30px;}
+.newscontent .txt p{font-size:14px;line-height:22px;text-indent:30px;margin-bottom:16px;width:930px;color:#666}
+.newscontent .txt img{margin:auto;display:block;margin-bottom:16px;}
+.newscontent .btn{margin:30px 0;clear:both}
+.newscontent .btn a{color:#999;font-size:14px;color:#666}
+.newscontent .btn a.backnews{margin-right:30px;}
+.newscontent .btn a img{margin-right:4px;}
+/*关于我们*/
+.aboutinf {float:right;width:670px;}
+.aboutinf .txt img{margin:10px;}
+
+/*荣誉证书*/
+.articlecon {float:right;width:670px;}
+/*article*/
+
+.articleinf .tit{font-size:26px;font-weight:bold;margin:20px 0;text-align:center}
+.articleinf .txt{line-height:20px;font-size:14px;line-height:30px;text-indent:30px;margin-bottom:40px;padding:0 40px;}
+/*searchlist*/
+.searchlist li{height:30px;border-bottom:1px dashed #DDD;line-height:30px;font-size:14px;padding-right:10px;}
+.searchlist li a{color:#666;font-size:14px;}
+.searchlist li a:hover{color:#C00}
+/*contactus*/
+
+.contactus .t{font-size:26px;margin:30px 0;padding-left:30px;color:#333}
+.contactus .list{background:url(../img/bg_6.png) 660px 100px no-repeat;padding-bottom:60px}
+.contactus .list .txt{padding-left:60px;line-height:30px;font-size:14px;color:#666}
+.contactus .list li{margin-bottom:15px;line-height:28px;}
+.contactus .list li p,.contactus .list li p span{font-size:14px}
+.contactus .list{height:350px;}
+
+/*leftcon*/
+.leftcon{width:230px;float:left;overflow:hidden}
+.left_nav .tit{font-size:14px;background:#306BB3;text-align:center;height:38px;line-height:38px;color:#FFF;font-weight:bold}
+.left_nav{width:230px;float:left;overflow:hidden;}
+.left_nav .t a{background:url(../img/bg_19.png) no-repeat 5px center;padding:6px;padding-left:18px;color:#369;}
+.left_nav .t2 a{background:url(../img/bg_20.png) no-repeat 5px center}
+.left_nav .sel{background:#EEE;}
+.left_nav ul{width:334px;}
+.left_nav ul li{height:26px;margin:0 2px 1px 0;background:#EEE;line-height:26px;text-align:center;padding:0;float:left;width:114px;}
+.left_nav ul li a{}
+
+/*rightcon*/
+.rightcon {width:670px;float:right;}
+.index_product {width:670px;}
+.index_product .list{height:130px;width:670px;overflow:hidden;margin-bottom:10px; position:relative}
+.index_product .list ul {width:804px; position:absolute;height:130px;overflow:hidden}
+.index_product .list ul li{float:left;width:110px;padding:0 12px;}
+.index_product .list ul li a{display:block; text-align:center;line-height:18px;margin-bottom:5px;}
+.article .tit {font-size:14px;background:#306BB3;text-align:center;height:38px;line-height:38px;color:#FFF;font-weight:bold}
+.article ul li{ text-indent:18px;height:26px;line-height:30px; background:url(../img/bg_21.png) no-repeat 4px center}
+
+/*首页联系我们*/
+.index_contactus {width:260px;float:right;padding-top:45px;}
+
+
+/*prolistshow*/
+.pro .prolistshow ul {width:690px;}
+.pro .prolistshow li{ float:left;width:110px;margin-right:15px;height:160px;border-bottom:0;padding:0}
+.pro .prolistshow li img{width:110px; height:80px;}
+.pro .prolistshow li a{font-size:12px;line-height:16px;}
